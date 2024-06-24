@@ -1,5 +1,6 @@
-AirBnB Clone Deployment Project Overview
------------------------------------------------------------------------------------------------------This project focused on deploying a Flask-based AirBnB clone application using a robust server setup. The deployment strategy leveraged Nginx as a reverse proxy, Gunicorn as the application server, and incorporated various DevOps best practices.
+AirBnB Clone Deployment Project Overvie
+-----------------------------------------------------------------------------------------------
+This project focused on deploying a Flask-based AirBnB clone application using a robust server setup. The deployment strategy leveraged Nginx as a reverse proxy, Gunicorn as the application server, and incorporated various DevOps best practices.
 Key Components:
 _________________________________________________________________________________________________
 
