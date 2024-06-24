@@ -1,8 +1,8 @@
 AirBnB Clone Deployment Project Overvie
 -----------------------------------------------------------------------------------------------
 This project focused on deploying a Flask-based AirBnB clone application using a robust server setup. The deployment strategy leveraged Nginx as a reverse proxy, Gunicorn as the application server, and incorporated various DevOps best practices.
+
 Key Components:
-_________________________________________________________________________________________________
 
 1-Web Application:
 
@@ -17,19 +17,16 @@ ________________________________________________________________________________
 
 3-Deployment Stages:
 
-a) Development Environment:
+ a) Development Environment:
   + Configured Flask route /airbnb-onepage/ on port 5000
-
-b) Production Setup:
-Implemented Gunicorn to serve the Flask application
+ b) Production Setup:
+  + Implemented Gunicorn to serve the Flask application
   + Created Nginx configurations to proxy requests to Gunicorn
   + Set up Upstart script for process management
-
-c) API Integration:
+ c) API Integration:
   + Deployed AirBnB API on Gunicorn
   + Configured Nginx to route API requests
-
-d) Full Application Deployment:
+ d) Full Application Deployment:
   + Served complete AirBnB clone including static assets
   + Implemented Nginx rules for routing all application components
 
